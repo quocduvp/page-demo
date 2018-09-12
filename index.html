@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <div id="root">
+        <header>
+            <div class="d-flex">
+                <span class="d-flex align-items-center">
+                    <img id="logo" src="/image/brand.png" width="120px" />
+                </span>
+                <nav id="nav" class="d-flex align-items-center">
+                    <a class="link">Customers</a>
+                    <a class="link">Pickups</a>
+                    <a class="link">Shipments</a>
+                    <a class="link">Create Shipment</a>
+                    <a class="link">Completed Shipments</a>
+                    <div id="search">
+                        <input type="search" placeholder="search" />
+                    </div>
+                </nav>
+                <div id="avatar" class="d-flex align-items-center ml-auto">
+                    <img src="./image/avatar.png" width="35px" />
+                    <span>PetBarn – Bondi</span>
+                </div>
+            </div>
+        </header>
+        <div id="table-shipments">
+            <h4 id="title">
+                Shipment
+            </h4>
+            <div id="td">
+                <table class="table table-striped table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">Status</th>
+                            <th scope="col">Pick up Date</th>
+                            <th scope="col">Delivery Date</th>
+                            <th scope="col">Customer</th>
+                            <th scope="col">Load ID</th>
+                            <th scope="col">Po Number</th>
+                            <th scope="col">Commodity</th>
+                            <th scope="col">Units</th>
+                            <th scope="col">Pallet Space</th>
+                            <th scope="col">Weight</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Origin City</th>
+                            <th scope="col">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th style="background-color: #8c8c8c;color: #fff;">
+                                Assigned
+                            </th>
+                            <td>13/09/2018
+                            </td>
+                            <td>14/09/2018</td>
+                            <td>Chatswood
+                            </td>
+                            <td>1888
+                            </td>
+                            <td>123221
+                            </td>
+                            <td>AMBIENT
+                            </td>
+                            <td>12
+                            </td>
+                            <td>6</td>
+                            <td>5400</td>
+                            <td>240</td>
+                            <td>Horsley Park</td>
+                            <td class="btnGroup">
+                                <a class="btn btn-primary">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                                <a class="btn btn-danger">
+                                    <i class="fa fa-trash-alt"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th style="background-color: #7395e2;color: #fff;">
+                                On Approach
+                            </th>
+                            <td>13/09/2018
+                            </td>
+                            <td>14/09/2018</td>
+                            <td>Penrith
+                            </td>
+                            <td>1888
+                            </td>
+                            <td>542341
+                            </td>
+                            <td>AMBIENT
+                            </td>
+                            <td>14
+                            </td>
+                            <td>7</td>
+                            <td>6300</td>
+                            <td>280</td>
+                            <td>Horsley Park</td>
+                            <td class="btnGroup">
+                                <a class="btn btn-primary">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                                <a class="btn btn-danger">
+                                    <i class="fa fa-trash-alt"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th style="background-color: #d4913f;color: #fff;">
+                                In Transit
+                            </th>
+                            <td>13/09/2018
+                            </td>
+                            <td>14/09/2018</td>
+                            <td>Belconnen
+                            </td>
+                            <td>6758
+                            </td>
+                            <td>1234
+                            </td>
+                            <td>AMBIENT
+                            </td>
+                            <td>10
+                            </td>
+                            <td>5</td>
+                            <td>4500</td>
+                            <td>200</td>
+                            <td>Horsley Park</td>
+                            <td class="btnGroup">
+                                <a class="btn btn-primary">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                                <a class="btn btn-danger">
+                                    <i class="fa fa-trash-alt"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th style="background-color: #d4913f;color: #fff;">
+                                In Transit
+                            </th>
+                            <td>13/09/2018
+                            </td>
+                            <td>14/09/2018</td>
+                            <td>Majura Park
+                            </td>
+                            <td>6758
+                            </td>
+                            <td>412341
+                            </td>
+                            <td>AMBIENT
+                            </td>
+                            <td>11
+                            </td>
+                            <td>5.5</td>
+                            <td>4950</td>
+                            <td>220</td>
+                            <td>Horsley Park</td>
+                            <td class="btnGroup">
+                                <a class="btn btn-primary">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                                <a class="btn btn-danger">
+                                    <i class="fa fa-trash-alt"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th style="background-color: #d4913f;color: #fff;">
+                                In Transit
+                            </th>
+                            <td>13/09/2018
+                            </td>
+                            <td>14/09/2018</td>
+                            <td>Tuggeranong
+                            </td>
+                            <td>6758
+                            </td>
+                            <td>123221
+                            </td>
+                            <td>AMBIENT
+                            </td>
+                            <td>12
+                            </td>
+                            <td>6</td>
+                            <td>5400</td>
+                            <td>240</td>
+                            <td>Horsley Park</td>
+                            <td class="btnGroup">
+                                <a class="btn btn-primary">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                                <a class="btn btn-danger">
+                                    <i class="fa fa-trash-alt"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th style="background-color: #d4913f;color: #fff;">
+                                In Transit
+                            </th>
+                            <td>13/09/2018
+                            </td>
+                            <td>14/09/2018</td>
+                            <td>Goulburn
+                            </td>
+                            <td>6758
+                            </td>
+                            <td>542341
+                            </td>
+                            <td>AMBIENT
+                            </td>
+                            <td>14
+                            </td>
+                            <td>7</td>
+                            <td>6300</td>
+                            <td>280</td>
+                            <td>Horsley Park</td>
+                            <td class="btnGroup">
+                                <a class="btn btn-primary">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                                <a class="btn btn-danger">
+                                    <i class="fa fa-trash-alt"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th style="background-color: #e4d355;color: #fff;">
+                                At Delivery Point
+                            </th>
+                            <td>13/09/2018
+                            </td>
+                            <td>14/09/2018</td>
+                            <td>Katoomba
+                            </td>
+                            <td>3432
+                            </td>
+                            <td>1234
+                            </td>
+                            <td>AMBIENT
+                            </td>
+                            <td>10
+                            </td>
+                            <td>5</td>
+                            <td>4500</td>
+                            <td>200</td>
+                            <td>Horsley Park</td>
+                            <td class="btnGroup">
+                                <a class="btn btn-primary">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                                <a class="btn btn-danger">
+                                    <i class="fa fa-trash-alt"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th style="background-color: #319a42;color: #fff;">
+                                Completed
+                            </th>
+                            <td>13/09/2018
+                            </td>
+                            <td>14/09/2018</td>
+                            <td>Double Bay
+                            </td>
+                            <td>5675
+                            </td>
+                            <td>412341
+                            </td>
+                            <td>AMBIENT
+                            </td>
+                            <td>11
+                            </td>
+                            <td>5.5</td>
+                            <td>4950</td>
+                            <td>220</td>
+                            <td>Horsley Park</td>
+                            <td class="btnGroup">
+                                <a class="btn btn-primary">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                                <a class="btn btn-danger">
+                                    <i class="fa fa-trash-alt"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                                <th style="background-color: #319a42;color: #fff;">
+                                    Completed
+                                </th>
+                                <td>13/09/2018
+                                </td>
+                                <td>14/09/2018</td>
+                                <td>Neutral Bay
+                                </td>
+                                <td>5675
+                                </td>
+                                <td>123221
+                                </td>
+                                <td>AMBIENT
+                                </td>
+                                <td>12
+                                </td>
+                                <td>6</td>
+                                <td>5400</td>
+                                <td>240</td>
+                                <td>Horsley Park</td>
+                                <td class="btnGroup">
+                                    <a class="btn btn-primary">
+                                        <i class="fa fa-eye"></i>
+                                    </a>
+                                    <a class="btn btn-danger">
+                                        <i class="fa fa-trash-alt"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
