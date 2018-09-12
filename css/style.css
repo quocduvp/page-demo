@@ -53,6 +53,7 @@ body div#root div#table-shipments div#td {
   border-top: 4px solid #1e8ff1;
   overflow: auto;
   font-size: 10px;
+  padding: 10px;
 }
 
 .btnGroup {
@@ -62,5 +63,18 @@ body div#root div#table-shipments div#td {
 .btnGroup a {
   padding: 4px;
   font-size: 10px;
+}
+
+#bottom {
+  padding-top: 15px;
+  border-top: 1px solid #e0d4d4;
+}
+
+#pagination ul {
+  margin: 0;
+}
+
+#pagination ul li a {
+  border: none;
 }
 /*# sourceMappingURL=style.css.map */
