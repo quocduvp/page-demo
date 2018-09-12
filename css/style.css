@@ -56,6 +56,10 @@ body div#root div#table-shipments div#td {
   padding: 10px;
 }
 
+body div#root div#table-shipments td {
+  padding: .2rem;
+}
+
 .btnGroup {
   color: #fff;
 }
@@ -70,11 +74,11 @@ body div#root div#table-shipments div#td {
   border-top: 1px solid #e0d4d4;
 }
 
-#pagination ul {
+#bottom ul {
   margin: 0;
 }
 
-#pagination ul li a {
+#bottom ul li a {
   border: none;
 }
 /*# sourceMappingURL=style.css.map */
